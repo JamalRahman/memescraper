@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="Memescraper">
+    <output-path>$PROJECT_DIR$/out/artifacts/Memescraper</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="Memescraper" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Memescraper" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="JavaFXApp.jar">
+        <element id="module-output" name="memescraper" />
+        <element id="extracted-dir" path="$PROJECT_DIR$/gson-2.8.2.jar" path-in-jar="/" />
+      </element>
+    </root>
+  </artifact>
+</component>

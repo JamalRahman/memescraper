@@ -1,0 +1,10 @@
+1) Sanitise saveTitle as safe for writing into a file.
+
+1) Log most recent scrape. Accesible from File menu
+    Logs Successful downloads (not successful task!)
+    Logs non-image-link posts
+    Logs when job.num > jsonArray.size
+2) Rewrite controller as such that:
+    Each method is to handle a type of event, not to handle an 'action' of logic.
+    Event handlers will call the required logic method as necessary.
+    - Potentially extract logic to a separate object?

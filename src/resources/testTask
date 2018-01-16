@@ -1,0 +1,29 @@
+ public class scrapey extends Task<Void> {
+     private final JobQueue jobQueue;
+     private totalNumber;
+     public scrapey(JobQueue jobQueue) {
+         totalnum = 0;
+         foreach(job in jobqueue){
+            totalnum+=job.getNum()
+         }
+     }
+
+     @Override protected Void call() throws Exception {
+         currentlyDownloaded = 0
+         foreach(job:jobqueue){
+            redditScraper's executeScrape code
+            currentlyDownloaded++;
+            updateMessage(currentlyDownloaded);
+            updateProgress(currentlyDownloaded,totalDownloads);
+         }
+         return null;
+     }
+ }
+
+
+ // IMPORTANT
+ // check if(isCancelled())
+    at the beginning of every download loop
+
+
+ //progressBar.progressProperty().bind(task.progressProperty())
