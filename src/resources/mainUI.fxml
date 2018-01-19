@@ -21,7 +21,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="526.0" prefWidth="974.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainUIController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="526.0" prefWidth="974.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainUIController">
    <top>
        <MenuBar BorderPane.alignment="CENTER">
            <Menu text="File">
@@ -52,14 +52,6 @@
                        <KeyCodeCombination alt="ANY" code="DELETE" control="UP" meta="UP" shift="UP" shortcut="UP" />
                    </accelerator>
                </MenuItem>
-           </Menu>
-           <Menu text="Help">
-               <MenuItem fx:id="menuHelp" onAction="#openHelp" text="Memescraper Help">
-                   <accelerator>
-                       <KeyCodeCombination alt="ANY" code="F1" control="UP" meta="UP" shift="UP" shortcut="UP" />
-                   </accelerator>
-               </MenuItem>
-               <MenuItem fx:id="menuAbout" onAction="#openAbout" text="About Memescraper" />
            </Menu>
        </MenuBar>
    </top>

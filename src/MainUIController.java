@@ -126,32 +126,6 @@ public class MainUIController implements Initializable {
     }
 
     @FXML
-    void openAbout(ActionEvent event) {
-        if (Desktop.isDesktopSupported()) {
-            try {
-                Desktop.getDesktop().browse(new URI("http://www.memescraper.net/about"));
-            } catch (IOException | URISyntaxException e) {
-                errorMsg(e);
-            }
-        } else {
-            errorMsg();
-        }
-    }
-
-    @FXML
-    void openHelp(ActionEvent event) {
-        if (Desktop.isDesktopSupported()) {
-            try {
-                Desktop.getDesktop().browse(new URI("http://www.memescraper.net/help"));
-            } catch (IOException | URISyntaxException e) {
-                errorMsg(e);
-            }
-        } else {
-            errorMsg();
-        }
-    }
-
-    @FXML
     void menuPrefs(ActionEvent event) {
         switch (((MenuItem) event.getSource()).getId()) {
             case "saveTitles":
